@@ -19,7 +19,7 @@ int main(void)
                   
                   __builtin_sysreg_write(__FLAGREGST, 0x08); // зажигаем светодиод FLAG3
                   Delay (500000);
-                  __builtin_sysreg_write(__FLAGREGCL, 0x00);
+                  //__builtin_sysreg_write(__FLAGREGCL, 0x00);
          }
 }
 //Функция задержки
